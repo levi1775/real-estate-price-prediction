@@ -12,9 +12,9 @@ The dataset consists of approximately **3000 rows** and **274 columns**, capturi
 
 ## 🔑 Key Steps
 
-### 1. ⚙️ Data Preprocessing
+### 1. Data Preprocessing
 
-#### a. 🛠️ **Dealing with Missing Data**
+#### a. **Dealing with Missing Data**
 - Identified missing values and categorized them as:
   - **Missing Completely at Random (MCAR)**
   - **Missing Not at Random (MNAR)**
@@ -23,26 +23,26 @@ The dataset consists of approximately **3000 rows** and **274 columns**, capturi
   - **Mode imputation** for categorical values.
 - Handled significant missing values (e.g., absence of features like a basement or garage).
 
-#### b. 🎨 **Dealing with Categorical Data**
+#### b. **Dealing with Categorical Data**
 - Encoded categorical variables using:
   - **One-Hot Encoding**: For nominal categories.
   - **Ordinal Encoding**: For ordered categories (e.g., quality ratings).
 - Ensured compatibility with machine learning by converting all categorical data into numeric format.
 
-#### c. 📊 **Dealing with Outliers**
+#### c. **Dealing with Outliers**
 - Identified outliers using statistical methods like **Interquartile Range (IQR)** and visualizations (box plots).
 - Applied strategies like capping or removal based on domain knowledge.
 
 ---
 
-### 2. 🔍 Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 - Visualized relationships between features and the target variable.
 - Detected multicollinearity using heatmaps and correlation matrices.
 - Examined numerical feature distributions and applied transformations where necessary.
 
 ---
 
-### 3. 🏗️ Feature Engineering
+### 3. Feature Engineering
 - Added new features to improve model accuracy.
 - Removed redundant or highly correlated features to simplify the dataset.
 
@@ -50,19 +50,19 @@ The dataset consists of approximately **3000 rows** and **274 columns**, capturi
 
 ### 4. 🤖 Model Building
 
-#### a. 📏 **Scaling**
+#### a.  **Scaling**
 - Standardized features using **StandardScaler**.
 
-#### b. 🔄 **Train-Test Split**
+#### b.  **Train-Test Split**
 - Divided the dataset into **90% training** and **10% testing** subsets.
 
-#### c. 🧮 **Elastic Net Regularization**
+#### c.  **Elastic Net Regularization**
 - Used Elastic Net, combining Lasso (L1) and Ridge (L2) regression.
 - Hyperparameter tuning with **GridSearchCV**:
   - Explored multiple `alpha` (regularization strength) and `l1_ratio` (balance between Lasso and Ridge) values.
   - Used 5-fold cross-validation.
 
-#### d. 📈 **Performance Evaluation**
+#### d.  **Performance Evaluation**
 - **Metrics Used**:
   - **Mean Absolute Error (MAE)**: Average prediction error.
   - **Root Mean Squared Error (RMSE)**: Highlights larger errors.
