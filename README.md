@@ -107,8 +107,8 @@ Contributions are welcome! If you have ideas to improve the project, feel free t
 
 ## 📬 Contact Me
 **Vedant Pimple**  
-💼 [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile)  
-📧 Email: vedant.pimple@example.com  
+💼 [LinkedIn](https://www.linkedin.com/in/vedant-pimple-523a65228)  
+📧 Email: vedantpimple1775@gmail.com
 
 ---
 
